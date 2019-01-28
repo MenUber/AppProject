@@ -1,0 +1,250 @@
+<resources>
+
+    <string name="general_ws_error">Error en el servicio</string>
+    <string name="default_loading_text">Cargando...</string>
+
+    <!--Squad-->
+    <string name="sq_title">Plantilla</string>
+    <string name="sq_coach">Entrenador</string>
+    <string name="sq_keeper">Portero</string>
+    <string name="sq_defender">Defensor</string>
+    <string name="sq_midfielder">Centrocampista</string>
+    <string name="sq_attacker">Delantero</string>
+    <string name="sq_goals">Goles Convertidos</string>
+
+    <!--Hello-->
+    <string name="fragment_hello">Hola, soy un fragment</string>
+
+    <!--Update notify-->
+    <string name="update_dlg_title">Actualización disponible</string>
+    <string name="update_dlg_content">Actualiza la aplicación para obtener las últimas novedades</string>
+    <string name="update_dlg_positive">Ir a la tienda</string>
+    <string name="update_dlg_negative">Más tarde</string>
+
+    <string name="date">Fecha:</string>
+
+    <!--Social Media Login-->
+    <string name="social_media_ws_error">Error con el servicio</string>
+    <string name="no_matches_found">No se encontraron partidos</string>
+
+    <!--Facebook-->
+
+    <string name="fb_login_cancel">Inicio de sesión cancelado</string>
+
+    <!--Google-->
+    <string name="google_auth_error">Error al autenticar. Inténtelo más tarde</string>
+    <string name="google_login_failure">No se pudo iniciar sesión. Inténtelo más tarde</string>
+
+    <!--Login-->
+    <string name="login_email_hint">Correo</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_button_login_text">Ingresar</string>
+    <string name="login_options_text">o ingresa con</string>
+    <string name="password_recovery_text">¿Olvidaste tu contraseña?</string>
+    <string name="sign_in_question_text">¿No tienes cuenta?</string>
+    <string name="sign_in_text">Regístrate</string>
+
+    <!--Login validation-->
+    <string name="invalid_pass">Contraseña incorrecta</string>
+    <string name="invalid_email">Correo incorrecto</string>
+    <string name="cant_pass">No puede ingresar</string>
+    <string name="welcome">¡Bienvenido</string>
+    <string name="error_connect">No se pudo conectar con la red</string>
+    <string name="email_password_ws_error">Usuario y/o Contraseña incorrecto</string>
+    <string name="email_confirmation_error">Error. Usuario con correo no confirmado</string>
+    <string name="social_networks_login_attempt_error">Error. Su cuenta está asociada a Facebook o Gmail</string>
+
+    <!--Improve your experience-->
+    <string name="improve_xperience_text">Mejora tu experiencia</string>
+    <string name="select_teams_text">Selecciona a qué equipo(s) deseas seguir...</string>
+    <string name="skip_teams_text">Omitir</string>
+    <string name="continue_teams_text">Continuar</string>
+    <string name="team_image_description">Logo del equipo</string>
+    <string name="team_name">Equipo</string>
+    <string name="teams_ws_error">Error en el servicio</string>
+
+    <!--Email confirm dialog-->
+    <string name="email_confirm_dialog_title">Confirmar correo</string>
+    <string name="email_confirm_dialog_content">Para poder iniciar sesión a partir de ahora, debe confirmar su correo</string>
+    <string name="email_confirm_dialog_ok">"Leer mis correos"</string>
+    <string name="email_confirm_dialog_back">"Más tarde"</string>
+
+    <!--Sign In-->
+    <string name="name_sign_in_text">Nombres</string>
+    <string name="lastname_sign_in_text">Apellidos</string>
+    <string name="birthday_sign_in_text">Nacimiento</string>
+    <string name="gender_sign_in_text">Género</string>
+    <string name="email_sign_in_text">Correo</string>
+    <string name="pass_sign_in_text">Contraseña</string>
+    <string name="pass_confirm_sign_in_text">Confirmar contraseña</string>
+    <string name="sign_in_button">Registrar</string>
+    <string name="already_registered_dialog_title">Correo ya registrado</string>
+    <string name="already_registered_dialog_text">El correo que ha ingresado ya está registrado. Por favor, ingrese otro.</string>
+
+
+    <!--Sign In Validation-->
+    <string name="sign_in_success">Registrado correctamente</string>
+    <string name="sign_in_failure">Usuario ya registrado</string>
+    <string name="required_name">Nombre requerido</string>
+    <string name="invalid_name">Nombre inválido</string>
+    <string name="required_lastname">Apellido requerido</string>
+    <string name="invalid_lastname">Apellido inválido</string>
+    <string name="required_birthday">Fecha requerida</string>
+    <string name="required_email">Formato de correo inválido</string>
+    <string name="required_pass">Contraseña requerida. Mínimo 5 caracteres</string>
+    <string name="required_pass_confirm">Confirmación requerida</string>
+    <string name="passwords_doesnt_match">Las contraseñas no coinciden</string>
+    <string name="complete_sign_in_form">Complete el formulario</string>
+
+
+    <!--Yes and No-->
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="ok">Entendido</string>
+
+    <!--Gender-->
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="other">Otro</string>
+    <string name="not_say">Prefiero no decirlo</string>
+
+
+
+    <string-array name="genders">
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Otro</item>
+        <item>Prefiero no decirlo</item>
+    </string-array>
+
+    <!--Restore password-->
+    <string name="restore_text">Ingrese el código enviado al correo</string>
+    <string name="restore_button">Cambiar</string>
+    <string name="pass_restore_dialog_success">Código enviado</string>
+    <string name="pass_restore_dialog_failure">Usuario no encontrado</string>
+    <string name="pass_restore_dialog_email_not_confirmed">Error. Su correo aún no ha sido verificado</string>
+    <string name="pass_restore_success">Contraseña actualizada</string>
+    <string name="pass_restore_failure">Código de verificación incorrecto</string>
+    <string name="pin_required">Pin requerido</string>
+    <!--Restore password dialog-->
+    <string name="restore_dialog_title">Restaurar contraseña</string>
+    <string name="restore_dialog_text">Bríndanos un correo para enviarte el código</string>
+    <string name="restore_dialog_button">Enviar</string>
+
+    <!--Navigation Drawer-->
+    <string name="nav_league">Torneos</string>
+    <string name="nav_apertura">Apertura</string>
+    <string name="nav_apertura_alt">Torneo Apertura</string>
+    <string name="nav_clausura">Clausura</string>
+    <string name="nav_clausura_alt">Torneo Clausura</string>
+    <string name="nav_worldcup">Inicio</string>
+    <string name="nav_teams">Mis equipos</string>
+    <string name="nav_add_team">Agregar equipos</string>
+    <string name="nav_peru">Selección peruana</string>
+    <string name="nav_promo">Arma tu previa</string>
+    <string name="nav_promo_1">Artículos deportivos</string>
+    <string name="nav_promo_2">Comidas y bebidas</string>
+    <string name="nav_entertainment">Entretenimiento</string>
+    <string name="nav_photo">Personaliza tu foto</string>
+    <string name="nav_player">Canciones y Vídeos</string>
+    <string name="nav_bet">Casas de apuestas</string>
+    <string name="nav_account">Cuenta</string>
+    <string name="nav_settings">Configuración</string>
+    <string name="nav_logout">Cerrar sesión</string>
+    <string name="nav_communications">Comunicaciones</string>
+    <string name="nav_about_us">Conócenos</string>
+    <string name="nav_share">Compartir</string>
+    <string name="nav_rate_app">Valóranos</string>
+
+    <!--About us-->
+    <string name="app_develop_for">Aplicación desarrollada por</string>
+    <string name="contact">Contáctanos</string>
+    <string name="capsula_link">https://www.capsuladigital.com/</string>
+
+    <!--Rate-->
+    <string name="rate_message">Tu opinión es muy importante para nosotros, por favor valora o deja un comentario para poder mejorar esta aplicación.\n\n¡Gracias por tu ayuda!</string>
+    <string name="rate_title">Califica la aplicación</string>
+    <string name="rate_btn_title">Ir a la tienda</string>
+
+    <!--Share-->
+    <string name="share_message">Alentemos juntos a la selección con Marcador Perú. Yo ya la tengo, ¡solo faltas tú!\n</string>
+    <string name="share_this_app">Comparte la aplicación</string>
+
+    <!--User Profile-->
+    <string name="up_title">Mi Perfil</string>
+    <string name="up_personal_data_title">Datos Personales</string>
+    <string name="up_my_teams_title">Mis Equipos</string>
+    <string name="non_specific">No especificado</string>
+    <string name="up_birthdate_title">Fecha de Nacimiento</string>
+    <string name="up_birthdate">15/07/96</string>
+    <string name="up_gender_title">Género</string>
+    <string name="up_gender">Masculino</string>
+    <string name="up_email_title">Correo</string>
+    <string name="up_email">pguerrero.hdc@gmail.com</string>
+    <string name="null_birthdate">00-00-0000</string>
+    <string name="teams_not_found">Aún no tienes equipos favoritos</string>
+    <!--Edit Profile Appbar Menu-->
+    <string name="up_edit_title">Editar</string>
+    <string name="up_edit_save">Guardar</string>
+    <!--Edit User's Data-->
+    <string name="eud_edit_title">Editar mis datos</string>
+    <string name="eud_sucess">Su información se ha actualizado</string>
+    <string name="eud_failure">Ha ocurrido un error. Inténtelo de nuevo</string>
+    <string name="dialog_back_title">Cambios sin guardar</string>
+    <string name="dialog_back_content">Ha dejado cambios sin guardar ¿Está seguro de que desea salir?</string>
+
+    <!--Edit User's Favorite Teams-->
+    <string name="eut_edit_title">Editar mis equipos</string>
+
+    <!--Edit User-->
+    <string name="error_social_edit_title">No puede editar perfil</string>
+    <string name="error_social_edit_content">Si desea editar está información, debe hacerlo desde la red social con la que ha ingresado</string>
+
+    <!--Fixture-->
+    <string name="ft_title">Partidos</string>
+    <string name="ft_info">Las fechas y horas de los partidos están en horario peruano</string>
+    <string name="ft_group">Grupo</string>
+    <string name="ft_menu_title">Filtrar</string>
+    <string name="ft_ab_calendar">Filtrar por fecha</string>
+    <string name="ft_ab_teams">Filtrar por equipos</string>
+
+
+    <!--Songs-->
+    <string name="sg_title">Cancionero</string>
+
+    <!--Stickers-->
+    <string name="sf_menu_save">Guardar foto</string>
+    <string name="sf_menu_share">Compartir foto</string>
+    <string name="sf_menu_back">Tomar otra foto</string>
+    <string name="photo_instructions">Toque el botón para tomar una foto o escoger una imagen de la galería</string>
+    <string name="saved_photo_dialog_title">Foto Guardada</string>
+    <string name="saved_photo_dialog_content">¡Tu foto ha sido guardada con éxito!</string>
+    <string name="saved_photo_dialog_ok">Ir a Galería</string>
+    <string name="saved_photo_dialog_back">Volver</string>
+    <string name="captured_photo_error">Ha ocurrido un error al capturar la foto. Inténtelo de nuevo</string>
+    <string name="sf_dialog_choose_title">Elige una opción</string>
+
+    <string-array name="sf_dialog_choose_options">
+        <item>Tomar foto</item>
+        <item>Elegir de galería</item>
+        <item>Cancelar</item>
+
+    </string-array>
+
+
+    <!--Dummy data-->
+    <string name="d_user_name">Paolo Guerrero</string>
+    <string name="d_user_email">pguerrero.hdc@gmail.com</string>
+    <string name="d_nationality">Perú</string>
+    <string name="s_universitario">Universitario</string>
+    <string name="large_text">Este es un texto largo, lo suficiente para que alcance en un mínimo de dos líneas con la pantalla en vertical.</string>
+    <string name="al_defender">Francisco Duclós</string>
+
+    <!--Permissions-->
+    <string name="perm_ok">Permisos aceptados</string>
+    <string name="perm_denied">Permisos denegados</string>
+    <string name="perm_denied_message">Se necesitan permisos para realizar las acciones</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+
+</resources>

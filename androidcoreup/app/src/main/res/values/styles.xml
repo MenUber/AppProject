@@ -1,0 +1,115 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/grey_900</item>
+
+    </style>
+
+    <style name="AppBarTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:tint">@color/white</item>
+
+    </style>
+
+    <style name="LoginTextField" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+
+    <style name="DataPickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PopUpTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/grey_850</item>
+        <item name="elevation">10dp</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+
+    <style name="SegmentStyle" parent="RadioButton">
+        <item name="sc_tint_color">@color/blue_grey_500</item>
+        <item name="sc_checked_text_color">@color/yellow_700</item>
+    </style>
+
+    <style name="CheckBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/amber_600</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorSecondary">@color/grey_700</item>
+    </style>
+
+    <style name="MyProgressDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/grey_800</item>
+        <item name="colorPrimaryDark">@color/colorAccentDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TableHeader" parent="Base.Theme.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="TableHeaderOdd" parent="TableHeader">
+        <item name="android:textColor">@color/amber_100</item>
+    </style>
+
+    <style name="TableRows" parent="TableHeader">
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@color/grey_900</item>
+    </style>
+
+    <style name="TableRowsOdd" parent="TableRows">
+        <item name="android:textColor">@color/amber_100</item>
+    </style>
+
+    <style name="TableRowsHorizontal" parent="TableRows">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="TableRowsOddHorizontal" parent="TableRowsHorizontal">
+        <item name="android:textColor">@color/amber_100</item>
+    </style>
+
+</resources>
