@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Menuber</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dessert_fragment">Dessert fragment</string>
+    <string name="drink_fragment">Drink fragment</string>
+    <string name="main_course_fragment">Main course fragment</string>
+    <string name="starter_fragment">Starter fragment</string>
 </resources>
