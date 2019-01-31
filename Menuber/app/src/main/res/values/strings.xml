@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Menuber</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_pass_hint">Password</string>
+    <string name="login_button_login_text">Iniciar Sesión</string>
+    <string name="password_recovery_text">¿Olvidaste tu contraseña?</string>
+    <string name="sign_in_question_text">¿No tienes cuenta?</string>
+    <string name="sign_in_text">Regístrate</string>
 </resources>
