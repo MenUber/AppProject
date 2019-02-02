@@ -1,4 +1,4 @@
-package com.sw.menuber.presentation.maindishes;
+package com.sw.menuber.presentation.dailydishes;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 import com.sw.menuber.R;
 
-public class MainDishesActivity extends AppCompatActivity {
+public class DailyDishesActivity extends AppCompatActivity {
 
     private TabLayout mTabLayout;
     private ViewPager mViewPager;
@@ -15,10 +15,10 @@ public class MainDishesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_dishes);
+        setContentView(R.layout.activity_daily_dishes);
 
         TabPagerAdapter tabPagerAdapter = new TabPagerAdapter(getSupportFragmentManager());
-        mViewPager = findViewById(R.id.viewPagerMenu);
+        mViewPager = findViewById(R.id.viewPagerDailyMenu);
         mViewPager.setAdapter(tabPagerAdapter);
         mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -37,7 +37,7 @@ public class MainDishesActivity extends AppCompatActivity {
             }
         });
 
-        mTabLayout = findViewById(R.id.tabMainDishes);
+        mTabLayout = findViewById(R.id.tabDailyDishes);
         mTabLayout.setupWithViewPager(mViewPager);
     }
 }
