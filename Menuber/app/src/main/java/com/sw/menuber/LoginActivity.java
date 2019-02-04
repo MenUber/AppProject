@@ -1,15 +1,26 @@
 package com.sw.menuber;
 
+import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
 import com.google.android.material.textfield.TextInputLayout;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.TextView;
+
 import androidx.appcompat.widget.AppCompatButton;
 
 public class LoginActivity extends AppCompatActivity implements LoginInterface.View {
     private TextInputLayout textInputEmail,textInputPass;
     private AppCompatButton btnCheck;
     private LoginInterface.Presenter presenter;
+    private TextView recoverPass;
+    Context context=this;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +29,7 @@ public class LoginActivity extends AppCompatActivity implements LoginInterface.V
         textInputEmail=(TextInputLayout)findViewById(R.id.til_user_email);
         textInputPass=(TextInputLayout)findViewById(R.id.til_user_pass);
         btnCheck = (AppCompatButton)findViewById(R.id.btn_login);
+        recoverPass = (TextView) findViewById(R.id.tv_pass_recovery);
         presenter = new LoginPresenter(this);
 
     }
@@ -35,6 +47,13 @@ public class LoginActivity extends AppCompatActivity implements LoginInterface.V
             @Override
             public void onClick(android.view.View view) {
                 validateUserView();
+            }
+        });
+
+        recoverPass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showRecoverPassDialog();
             }
         });
     }
@@ -69,5 +88,14 @@ public class LoginActivity extends AppCompatActivity implements LoginInterface.V
 
         presenter.validateUserPresenter(textInputEmail.getEditText().getText().toString().trim(),textInputPass.getEditText().getText().toString().trim());
 
+    }
+
+    public void showRecoverPassDialog(){
+        final Dialog dialogBuilder = new Dialog(this);
+        LayoutInflater inflater = this.getLayoutInflater();
+        final View dialogView = inflater.inflate(R.layout.dialogo_recover_pass, null);
+        dialogBuilder.setContentView(dialogView);
+        dialogBuilder.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        dialogBuilder.show();
     }
 }

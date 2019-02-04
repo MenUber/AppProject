@@ -16,5 +16,12 @@
     <string name="drink_fragment">Drink fragment</string>
     <string name="main_course_fragment">Main course fragment</string>
     <string name="starter_fragment">Starter fragment</string>
-
+    <string name="title_activity_recover_pass">RecoverPassActivity</string>
+    <string name="restore_dialog_title">Recuperar contraseña</string>
+    <string name="restore_dialog_text">Ingrese su correo para enviarle un código de confirmación.</string>
+    <string name="email_sign_in_text">Email</string>
+    <string name="restore_dialog_button">Enviar</string>
+    <string name="restore_text">Ingrese el codigo de verificación</string>
+    <string name="button_recover_pass">Restaurar Contraseña</string>
+    <string name="login_pass_hint_rep">Confirmar Contraseña</string>
 </resources>

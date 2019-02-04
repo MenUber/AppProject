@@ -9,11 +9,12 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".activityRecoverPass"/>
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity"/>
-        <activity android:name=".ActivitySplash"/>
-        <activity android:name=".presentation.dailydishes.DailyDishesActivity"/>
-        <activity android:name=".presentation.maindishes.MainDishesActivity"/>
+        <activity android:name=".ActivitySplash" />
+        <activity android:name=".presentation.dailydishes.DailyDishesActivity" />
+        <activity android:name=".presentation.maindishes.MainDishesActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
