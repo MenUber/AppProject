@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"

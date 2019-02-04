@@ -1,9 +1,9 @@
 package com.sw.menuber.presentation.dailydishes;
 
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.sw.menuber.presentation.dailydishes.dessert.DailyDessertFragment;
 import com.sw.menuber.presentation.dailydishes.drink.DailyDrinkFragment;
