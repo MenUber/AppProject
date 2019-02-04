@@ -3,6 +3,8 @@ package com.sw.menuber.presentation.dailydishes.starter;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +18,8 @@ import com.sw.menuber.R;
 public class DailyStarterFragment extends Fragment implements DailyStarterContract.View{
 
     private DailyStarterContract.Presenter mPresenter;
+    RecyclerView recyclerStarter;
+    DailyStarterAdapter starterAdapter;
 
     public DailyStarterFragment() {
         // Required empty public constructor
@@ -26,7 +30,15 @@ public class DailyStarterFragment extends Fragment implements DailyStarterContra
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_daily_starter, container, false);
+        View view = inflater.inflate(R.layout.fragment_daily_starter, container, false);
+
+        starterAdapter = new DailyStarterAdapter();
+
+        recyclerStarter = view.findViewById(R.id.rvDailyStarter);
+        recyclerStarter.setLayoutManager(new LinearLayoutManager(getActivity()));
+        recyclerStarter.setAdapter(starterAdapter);
+
+        return view;
     }
 
     @Override
